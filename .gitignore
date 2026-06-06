@@ -1,0 +1,16 @@
+# Database & Encryption Keys (Crucial for Privacy)
+server/safetalk.db
+server/secret.key
+
+# Python bytecode and virtual environments
+**/__pycache__/
+**/*.pyc
+.venv/
+env/
+venv/
+
+# Editor/System configurations
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
