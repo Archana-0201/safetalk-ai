@@ -98,7 +98,10 @@ const TAMIL_SCRIPT_MAP = {
 const SHOUTING_RMS_THRESHOLD = 0.25;
 
 // Server connection settings
-const API_BASE_URL = "http://localhost:8000/api";
+// Point to the live hosted Render backend URL
+const API_BASE_URL = "https://safetalk-ai.onrender.com/api";
+// To test locally, uncomment the line below:
+// const API_BASE_URL = "http://localhost:8000/api";
 let isServerConnected = false;
 
 
